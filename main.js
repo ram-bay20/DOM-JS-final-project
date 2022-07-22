@@ -48,6 +48,8 @@ function removeItem(e){
           if(confirm('Are you sure to delete?')){
                var li = e.target.parentElement;
                itemList.removeChild(li);
+               
+               newItem.value = '';
           }
      }
 }
