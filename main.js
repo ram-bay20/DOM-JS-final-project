@@ -42,7 +42,7 @@ function additem(e){
 
      itemList.appendChild(li);
      
-      newItem.value = '';
+      newItem = '';
 }
 
 function removeItem(e){
