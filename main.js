@@ -41,6 +41,8 @@ function additem(e){
      li.appendChild(delBtn);
 
      itemList.appendChild(li);
+     
+      newItem.value = '';
 }
 
 function removeItem(e){
@@ -49,7 +51,7 @@ function removeItem(e){
                var li = e.target.parentElement;
                itemList.removeChild(li);
                
-               newItem.value = '';
+              
           }
      }
 }
